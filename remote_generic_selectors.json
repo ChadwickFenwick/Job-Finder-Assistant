@@ -1,5 +1,4 @@
-[
-    {
+{
         "container": [
             ".job-listing",
             ".job-item",
@@ -81,4 +80,3 @@
             ]
         }
     }
-]
