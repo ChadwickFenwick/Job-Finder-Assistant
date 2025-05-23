@@ -12,7 +12,11 @@
             "[class*='job']",
             "[class*='position']",
             "[class*='opening']",
-            "[class*='department']"  
+            "[class*='department']",
+        "a[href*='/careers/position']",
+    "a[href*='/jobs/position']",
+    "a[data-qa*='job-posting']",
+    "a[data-ph-at-id='jobs-list-item-link']"  
         ],
         "title": [
             "h2 a[href]",
