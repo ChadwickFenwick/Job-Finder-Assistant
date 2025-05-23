@@ -16,7 +16,8 @@
         "a[href*='/careers/position']",
     "a[href*='/jobs/position']",
     "a[data-qa*='job-posting']",
-    "a[data-ph-at-id='jobs-list-item-link']"  
+    "a[data-ph-at-id='jobs-list-item-link']",
+                "[class*='career']"
         ],
         "title": [
             "h2 a[href]",
