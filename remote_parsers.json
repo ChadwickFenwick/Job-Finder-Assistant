@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Workable",
+        "isSingleCompanyPageHint": true,
+        "containerSelector": ["li[data-ui='job-opening']", "div.job-card"],
+        "titleSelector": [
+            "h2[data-ui='job-title']",
+            "h3[data-id='job-item']",
+            "div[data-id='job-item'] h2",
+            "a h2"
+        ],
+        "urlSelector": ["a[data-ui='job-title']", "a[href]"],
+        "companyNameSelector": ["span[data-ui='company-name']", "div[data-ui='company']"],
+        "locationContextSelector": "div[data-ui='job-location']",
+        "locationDetailSelector": "span",
+        "workplaceSelector": "span[data-ui='job-workplace']",
+        "dateSelector": "span[data-ui='job-posted-date']",
+        "jobTypeDetectSelectors": ["dl dd", "ul li", "span[class*='job-type']", "span[class*='employment-type']", "[data-ui*='type']", "[data-ui*='commitment']"],
+        "jobTypeKeywords": { "Full-time": ["full-time", "full time"], "Part-time": ["part-time", "part time"], "Contract": ["contractor", "contract "], "Internship": ["internship", "intern "], "Temporary": ["temporary", "temp "] }
+    },
+    {
+        "name": "Lever",
+        "isSingleCompanyPageHint": true,
+        "containerSelector": "div.posting",
+        "titleSelector": "h5[data-qa='posting-name']",
+        "companyNameSelector": ["a.main-header-logo img[alt]", "h1.main-header-company-name", ".main-header-logotype img[alt]"],
+        "urlSelector": "a.posting-title[href]",
+        "urlFallbackSelector": ".posting-apply a[href]",
+        "categoriesContainerSelector": ".posting-categories",
+        "locationSubSelector": ".location",
+        "workplaceSubSelector": ".workplaceTypes",
+        "jobTypeSubSelector": ".commitment",
+        "dateSelector": "div.posting-categories span.sort-by-time",
+        "workplaceCleanupRegex": "&nbsp;—&nbsp;$",
+        "jobTypeKeywords": { "Full-time": ["full-time", "full time"], "Part-time": ["part-time", "part time"], "Contract": ["contract", "contractor"], "Internship": ["internship"], "Temporary": ["temporary"] }
+    },
+    {
+        "name": "Greenhouse",
+        "iframeQuerySelector": ["iframe[src*='boards.greenhouse.io']", "iframe#grnhse_iframe", "iframe[title*='Greenhouse']"],
+        "isSingleCompanyPageHint": true,
+        "containerSelector": "div.opening",
+        "titleSelector": ["a[data-mapped='yes']", "h4.job-title", "h2.job-title"],
+        "urlSelector": ["a[data-mapped='yes']", "a[href]"],
+        "companyNameSelector": ["h1.company-name", "#header .logo img[alt]", "#logo img[alt]", "div.company-name", "h1"],
+        "locationSelector": ["div.location", ".location"],
+        "dateSelector": null,
+        "jobTypeDetectSelectors": [".job-type", "div.metadata", "span.job-type-label"],
+        "jobTypeKeywords": { "Full-time": ["full-time", "full time"], "Part-time": ["part-time", "part time"], "Contract": ["contract", "contractor"], "Internship": ["internship"], "Temporary": ["temporary"] }
+    },
+    {
+        "name": "Ashby",
+        "iframeQuerySelector": ["iframe#ashby_embed_iframe_v2", "iframe[src*='ashbyhq.com/embed']", "iframe[title*='Ashby']"],
+        "isSingleCompanyPageHint": true,
+        "containerSelector": ["div[class*='_job-posting_']", "li[class*='ashby-job-posting']", "div[data-qa='job-posting']"],
+        "titleSelector": ["h3[class*='_title_']", "div[class*='_title_']", "h3[data-qa='job-title']"],
+        "urlSelector": ["a[class*='_job-title_']", "a[href]"],
+        "companyNameSelector": null,
+        "detailsContainerSelector": ["div[class*='_details_']", "div[class*='ashby-job-details']", "div[data-qa='job-details']"],
+        "locationSubSelector": "span",
+        "jobTypeSubSelector": "span",
+        "departmentSubSelector": "span",
+        "dateSelector": null,
+        "jobTypeKeywords": { "Full-time": ["full-time", "full time"], "Part-time": ["part-time", "part time"], "Contract": ["contract", "contractor"], "Internship": ["internship"], "Temporary": ["temporary"], "Remote": ["remote"] }
+    },
+    {
+        "name": "Airbnb",
+        "isSingleCompanyPageHint": true,
+        "containerSelector": "li:has(a[data-ph-at-id=\"jobs-list-item-link\"])",
+        "titleSelector": "div[data-ph-at-id=\"position-title-text\"]",
+        "urlSelector": "a[data-ph-at-id=\"jobs-list-item-link\"]",
+        "companyNameSelector": ["meta[property='og:site_name']", "head title"],
+        "locationSelector": "div[data-ph-at-id=\"text-location\"]",
+        "dateSelector": null,
+        "departmentSelector": "div[data-ph-at-id=\"text-department\"]",
+        "jobTypeDetectSelectors": null,
+        "jobTypeKeywords": {}
+    },
+      {
+        "name": "Test",
+        "isSingleCompanyPageHint": true,
+        "containerSelector": "li:has(a[data-ph-at-id=\"jobs-list-item-link\"])",
+        "titleSelector": "div[data-ph-at-id=\"position-title-text\"]",
+        "urlSelector": "a[data-ph-at-id=\"jobs-list-item-link\"]",
+        "companyNameSelector": ["meta[property='og:site_name']", "head title"],
+        "locationSelector": "div[data-ph-at-id=\"text-location\"]",
+        "dateSelector": null,
+        "departmentSelector": "div[data-ph-at-id=\"text-department\"]",
+        "jobTypeDetectSelectors": null,
+        "jobTypeKeywords": {}
+    }
+]
