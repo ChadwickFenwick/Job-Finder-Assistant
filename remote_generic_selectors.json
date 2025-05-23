@@ -1,4 +1,5 @@
-{
+[
+  {
   "container": [
     ".job-listing",
     ".job-item",
@@ -53,3 +54,4 @@
     "Temporary": ["temporary", "temp "]
   }
 }
+]
