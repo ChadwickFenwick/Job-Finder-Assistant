@@ -9,7 +9,7 @@
             "li[class*='job']",
             "div[class*='job-card']",
             "tr[class*='job']",
-            "article[class*='jobs__item']"
+            "article.jobs__item"
         ],
         "title": [
             "h2 a[href]",
