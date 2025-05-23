@@ -1,57 +1,81 @@
 [
-  {
-  "container": [
-    ".job-listing",
-    ".job-item",
-    "article.job",
-    "div.job-posting-summary",
-    "[role='listitem']",
-    "li[class*='job']",
-    "div[class*='job-card']",
-    "tr[class*='job']",
-    "article[class*='jobs__item']"
-  ],
-  "title": [
-    "h2 a[href]", "h3 a[href]", "h4 a[href]",
-    "a h2", "a h3", "a h4",
-    ".jobTitle", ".job-title", ".title",
-    "[itemprop='title']",
-    "h1", "h2", "h3", "h4"
-  ],
-  "url": [
-    "a.job-link[href]",
-    "a.details-link[href]",
-    "a[href]",
-  ],
-  "companyName": [
-    "[itemprop='hiringOrganization'] [itemprop='name']",
-    "[itemprop='hiringOrganization']",
-    ".company-name",
-    ".job-company",
-    "[class*='companyname']",
-    "[class*='company-info'] .name",
-    "[data-company-name]"
-  ],
-  "location": [
-    ".jobLocation",
-    ".job-location",
-    ".location",
-    ".jobAddress",
-    ".address",
-    "[itemprop='addressLocality']",
-    "[itemprop='jobLocation']",
-    "span[class*='loc']",
-    "div[class*='loc']"
-  ],
-  "date": [
-    "time"
-  ],
-  "jobTypeKeywords": {
-    "Full-time": ["full-time", "full time"],
-    "Part-time": ["part-time", "part time"],
-    "Contract": ["contractor", "contract "],
-    "Internship": ["internship", "intern "],
-    "Temporary": ["temporary", "temp "]
-  }
-}
+    {
+        "container": [
+            ".job-listing",
+            ".job-item",
+            "article.job",
+            "div.job-posting-summary",
+            "[role='listitem']",
+            "li[class*='job']",
+            "div[class*='job-card']",
+            "tr[class*='job']",
+            "article[class*='jobs__item']"
+        ],
+        "title": [
+            "h2 a[href]",
+            "h3 a[href]",
+            "h4 a[href]",
+            "a h2",
+            "a h3",
+            "a h4",
+            ".jobTitle",
+            ".job-title",
+            ".title",
+            "[itemprop='title']",
+            "h1",
+            "h2",
+            "h3",
+            "h4"
+        ],
+        "url": [
+            "a.job-link[href]",
+            "a.details-link[href]",
+            "a[href]"
+        ],
+        "companyName": [
+            "[itemprop='hiringOrganization'] [itemprop='name']",
+            "[itemprop='hiringOrganization']",
+            ".company-name",
+            ".job-company",
+            "[class*='companyname']",
+            "[class*='company-info'] .name",
+            "[data-company-name]"
+        ],
+        "location": [
+            ".jobLocation",
+            ".job-location",
+            ".location",
+            ".jobAddress",
+            ".address",
+            "[itemprop='addressLocality']",
+            "[itemprop='jobLocation']",
+            "span[class*='loc']",
+            "div[class*='loc']"
+        ],
+        "date": [
+            "time"
+        ],
+        "jobTypeKeywords": {
+            "Full-time": [
+                "full-time",
+                "full time"
+            ],
+            "Part-time": [
+                "part-time",
+                "part time"
+            ],
+            "Contract": [
+                "contractor",
+                "contract "
+            ],
+            "Internship": [
+                "internship",
+                "intern "
+            ],
+            "Temporary": [
+                "temporary",
+                "temp "
+            ]
+        }
+    }
 ]
