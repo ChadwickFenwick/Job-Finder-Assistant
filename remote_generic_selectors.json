@@ -11,7 +11,8 @@
             "article.jobs__item",
             "[class*='job']",
             "[class*='position']",
-            "[class*='opening']"
+            "[class*='opening']",
+            "[class*='department']"  
         ],
         "title": [
             "h2 a[href]",
