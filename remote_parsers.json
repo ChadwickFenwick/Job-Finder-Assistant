@@ -74,31 +74,5 @@
         "departmentSelector": "div[data-ph-at-id=\"text-department\"]",
         "jobTypeDetectSelectors": null,
         "jobTypeKeywords": {}
-    },
-      {
-        "name": "Test",
-        "isSingleCompanyPageHint": true,
-        "containerSelector": "li:has(a[data-ph-at-id=\"jobs-list-item-link\"])",
-        "titleSelector": "div[data-ph-at-id=\"position-title-text\"]",
-        "urlSelector": "a[data-ph-at-id=\"jobs-list-item-link\"]",
-        "companyNameSelector": ["meta[property='og:site_name']", "head title"],
-        "locationSelector": "div[data-ph-at-id=\"text-location\"]",
-        "dateSelector": null,
-        "departmentSelector": "div[data-ph-at-id=\"text-department\"]",
-        "jobTypeDetectSelectors": null,
-        "jobTypeKeywords": {}
-    },
-          {
-        "name": "Test2",
-        "isSingleCompanyPageHint": true,
-        "containerSelector": "li:has(a[data-ph-at-id=\"jobs-list-item-link\"])",
-        "titleSelector": "div[data-ph-at-id=\"position-title-text\"]",
-        "urlSelector": "a[data-ph-at-id=\"jobs-list-item-link\"]",
-        "companyNameSelector": ["meta[property='og:site_name']", "head title"],
-        "locationSelector": "div[data-ph-at-id=\"text-location\"]",
-        "dateSelector": null,
-        "departmentSelector": "div[data-ph-at-id=\"text-department\"]",
-        "jobTypeDetectSelectors": null,
-        "jobTypeKeywords": {}
     }
 ]
