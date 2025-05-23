@@ -17,7 +17,8 @@
     "a[href*='/jobs/position']",
     "a[data-qa*='job-posting']",
     "a[data-ph-at-id='jobs-list-item-link']",
-                "[class*='career']"
+                "[class*='career']",
+"div[class*='JobGridItem']"
         ],
         "title": [
             "h2 a[href]",
