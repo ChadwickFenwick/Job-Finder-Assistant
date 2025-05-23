@@ -7,7 +7,8 @@
     "[role='listitem']",
     "li[class*='job']",
     "div[class*='job-card']",
-    "tr[class*='job']"
+    "tr[class*='job']",
+    "article[class*='jobs__item']"
   ],
   "title": [
     "h2 a[href]", "h3 a[href]", "h4 a[href]",
@@ -19,7 +20,7 @@
   "url": [
     "a.job-link[href]",
     "a.details-link[href]",
-    "a[href]"
+    "a[href]",
   ],
   "companyName": [
     "[itemprop='hiringOrganization'] [itemprop='name']",
